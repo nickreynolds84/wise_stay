@@ -1,0 +1,13 @@
+{
+  "models": {
+    "candidate-model": {
+      "status": "candidate",
+      "min_ram_gb": 8,
+      "download_size_gb": 2.5,
+      "supported_os": ["Darwin", "Linux", "Windows"],
+      "supported_tasks": ["attraction_discovery", "recommendation_explanation"],
+      "download_url": "https://REPLACE_WITH_LICENSED_S3_MODEL_URL/model.gguf",
+      "sha256": "REPLACE_WITH_VERIFIED_SHA256"
+    }
+  }
+}
